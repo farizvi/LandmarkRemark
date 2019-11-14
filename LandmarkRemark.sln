@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClassLibraries", "ClassLibraries", "{659A9F96-1996-4F06-B74F-E9F2CF02E499}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LandmarkRemark.Application", "LandmarkRemark.Application\LandmarkRemark.Application.csproj", "{8FDE0749-09FD-474B-8643-0B00782DECDE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LandmarkRemark.Domain", "LandmarkRemark.Domain\LandmarkRemark.Domain.csproj", "{A5C597E1-1239-4269-BDD7-4E29B72E7233}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LandmarkRemark.Persistence", "LandmarkRemark.Persistence\LandmarkRemark.Persistence.csproj", "{6BE65410-6910-411C-A6B3-7D32A6CEA587}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A434BBDA-578C-4EDB-A1C0-B49A33397DF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LandmarkRemark", "LandmarkRemark.API\LandmarkRemark.csproj", "{DE148218-35B6-4092-A3F2-B89B31DBCAA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FDE0749-09FD-474B-8643-0B00782DECDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDE0749-09FD-474B-8643-0B00782DECDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDE0749-09FD-474B-8643-0B00782DECDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDE0749-09FD-474B-8643-0B00782DECDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C597E1-1239-4269-BDD7-4E29B72E7233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C597E1-1239-4269-BDD7-4E29B72E7233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C597E1-1239-4269-BDD7-4E29B72E7233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C597E1-1239-4269-BDD7-4E29B72E7233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE65410-6910-411C-A6B3-7D32A6CEA587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE65410-6910-411C-A6B3-7D32A6CEA587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE65410-6910-411C-A6B3-7D32A6CEA587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE65410-6910-411C-A6B3-7D32A6CEA587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE148218-35B6-4092-A3F2-B89B31DBCAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE148218-35B6-4092-A3F2-B89B31DBCAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE148218-35B6-4092-A3F2-B89B31DBCAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE148218-35B6-4092-A3F2-B89B31DBCAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FDE0749-09FD-474B-8643-0B00782DECDE} = {659A9F96-1996-4F06-B74F-E9F2CF02E499}
+		{A5C597E1-1239-4269-BDD7-4E29B72E7233} = {659A9F96-1996-4F06-B74F-E9F2CF02E499}
+		{6BE65410-6910-411C-A6B3-7D32A6CEA587} = {659A9F96-1996-4F06-B74F-E9F2CF02E499}
+		{DE148218-35B6-4092-A3F2-B89B31DBCAA8} = {A434BBDA-578C-4EDB-A1C0-B49A33397DF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07DFE6B4-F1CC-4CC5-8761-6944E4565C16}
+	EndGlobalSection
+EndGlobal
