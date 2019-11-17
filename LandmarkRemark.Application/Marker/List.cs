@@ -20,7 +20,7 @@ namespace LandmarkRemark.Application.Marker
             public async Task<List<LandmarkRemark.Domain.Marker>> Handle(Query request, CancellationToken cancellationToken)
             {
                 var markers = await _context.Markers.ToListAsync();
-
+                
                 return markers;
             }
         }

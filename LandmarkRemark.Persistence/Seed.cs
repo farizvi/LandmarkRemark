@@ -52,7 +52,41 @@ namespace LandmarkRemark.Persistence
 
                 context.Markers.AddRange(markers);
                 context.SaveChanges();
-            }            
+            } 
+
+            if (!context.Notes.Any())
+            {
+                var notes = new List<Note>
+                {
+                    new Note
+                    {
+                        MarkerId = new System.Guid("72fdc091-2b82-47f2-b693-552fb6227bb3"),
+                        Username = "John",
+                        NoteText = "Lorem ipsum..."
+                    },
+                    new Note
+                    {
+                        MarkerId = new System.Guid("0d321eb6-6889-44b3-9288-89a18bc7104c"),
+                        Username = "Kate",
+                        NoteText = "Lorem ipsum..."
+                    },
+                    new Note
+                    {
+                        MarkerId = new System.Guid("b7873568-1b01-4e4a-be1d-112d7b46be86"),
+                        Username = "Dpnald",
+                        NoteText = "Lorem ipsum..."
+                    },
+                    new Note
+                    {
+                        MarkerId = new System.Guid("091bbac0-1a0f-4991-a24e-da55e7af6111"),
+                        Username = "Sam",
+                        NoteText = "Lorem ipsum..."
+                    }
+                };
+
+                context.Notes.AddRange(notes);
+                context.SaveChanges();
+            }           
         }
     }
 }

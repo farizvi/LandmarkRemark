@@ -1,0 +1,8 @@
+bin
+obj
+Debug
+.DS_Store
+*.db
+*.suo
+*.pdb
+*.dll

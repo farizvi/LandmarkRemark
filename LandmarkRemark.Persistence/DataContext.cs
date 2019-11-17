@@ -12,6 +12,8 @@ namespace LandmarkRemark.Persistence
         
         public DbSet<Marker> Markers { get; set; }
 
+        public DbSet<Note> Notes { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
